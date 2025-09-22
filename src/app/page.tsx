@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <h1 className="text-7xl text-rose-500">My Nextjs Blog</h1>
 
-      <div>
+      {/* <div>
         <h2 className="text-2xl font-bod mb-5">Normal Image</h2>
         <img
           src="https://images.pexels.com/photos/5615067/pexels-photo-5615067.jpeg"
@@ -14,7 +14,7 @@ export default function Home() {
           height={500}
           className="mx-auto"
         />
-      </div>
+      </div> */}
 
       <div>
         <h2 className="text-2xl font-bod mb-5">Next Optimized Image</h2>
