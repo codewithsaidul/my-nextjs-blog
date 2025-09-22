@@ -1,9 +1,124 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "products": [
+    {
+      "id": "1",
+      "product_name": "iPhone 15 Pro",
+      "category": "Smartphone",
+      "brand": "Apple",
+      "price": 1199,
+      "image": "https://example.com/images/iphone15pro.jpg"
+    },
+    {
+      "id": "2",
+      "product_name": "Galaxy S24 Ultra",
+      "category": "Smartphone",
+      "brand": "Samsung",
+      "price": 1099,
+      "image": "https://example.com/images/galaxyS24ultra.jpg"
+    },
+    {
+      "id": "3",
+      "product_name": "PlayStation 5",
+      "category": "Gaming Console",
+      "brand": "Sony",
+      "price": 499,
+      "image": "https://example.com/images/ps5.jpg"
+    },
+    {
+      "id": "4",
+      "product_name": "Xbox Series X",
+      "category": "Gaming Console",
+      "brand": "Microsoft",
+      "price": 499,
+      "image": "https://example.com/images/xboxseriesx.jpg"
+    },
+    {
+      "id": "5",
+      "product_name": "MacBook Air M3",
+      "category": "Laptop",
+      "brand": "Apple",
+      "price": 1399,
+      "image": "https://example.com/images/macbookairm3.jpg"
+    },
+    {
+      "id": 6,
+      "product_name": "Dell XPS 15",
+      "category": "Laptop",
+      "brand": "Dell",
+      "price": 1599,
+      "image": "https://example.com/images/dellxps15.jpg"
+    },
+    {
+      "id": 7,
+      "product_name": "Sony WH-1000XM5",
+      "category": "Headphones",
+      "brand": "Sony",
+      "price": 399,
+      "image": "https://example.com/images/sonywh1000xm5.jpg"
+    },
+    {
+      "id": 8,
+      "product_name": "AirPods Pro 2",
+      "category": "Headphones",
+      "brand": "Apple",
+      "price": 249,
+      "image": "https://example.com/images/airpodspro2.jpg"
+    },
+    {
+      "id": 9,
+      "product_name": "Canon EOS R8",
+      "category": "Camera",
+      "brand": "Canon",
+      "price": 1799,
+      "image": "https://example.com/images/canonr8.jpg"
+    },
+    {
+      "id": 10,
+      "product_name": "Nikon Z6 II",
+      "category": "Camera",
+      "brand": "Nikon",
+      "price": 1999,
+      "image": "https://example.com/images/nikonz6ii.jpg"
+    },
+    {
+      "id": 11,
+      "product_name": "Apple Watch Ultra 2",
+      "category": "Smartwatch",
+      "brand": "Apple",
+      "price": 799,
+      "image": "https://example.com/images/applewatchultra2.jpg"
+    },
+    {
+      "id": 12,
+      "product_name": "Samsung Galaxy Watch 6",
+      "category": "Smartwatch",
+      "brand": "Samsung",
+      "price": 349,
+      "image": "https://example.com/images/galaxywatch6.jpg"
+    },
+    {
+      "id": 13,
+      "product_name": "Logitech MX Master 3S",
+      "category": "Mouse",
+      "brand": "Logitech",
+      "price": 99,
+      "image": "https://example.com/images/mxmaster3s.jpg"
+    },
+    {
+      "id": 14,
+      "product_name": "Razer BlackWidow V4",
+      "category": "Keyboard",
+      "brand": "Razer",
+      "price": 179,
+      "image": "https://example.com/images/razerblackwidowv4.jpg"
+    },
+    {
+      "id": 15,
+      "product_name": "LG C3 OLED TV",
+      "category": "Television",
+      "brand": "LG",
+      "price": 1499,
+      "image": "https://example.com/images/lgc3oled.jpg"
+    }
+  ]
 }
