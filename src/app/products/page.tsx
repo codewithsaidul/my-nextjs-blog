@@ -1,9 +1,7 @@
 
 async function page  () {
     const res = await fetch("http://localhost:5000/products", {
-      next: {
-        revalidate: 30
-      }
+      cache: "no-store"
     });
     const products = await res.json()
     console.log(products)
